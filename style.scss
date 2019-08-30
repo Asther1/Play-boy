@@ -1,3 +1,49 @@
-nav{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// 導覽獵區塊 
+#nav {
     background-color: #999;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    color: #e1e159;
+    height: 10vh;
+    padding: 15px;
+  }
+
+  #nav #logo{
+      font-size: 1.3em;
+  }
+
+  #nav #logo #logo-zh{
+    font-size: 0.6em;
+    letter-spacing: 7px;
+}  
+
+  #nav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 0.7em;
+    width: 120px;
+  }
+
+v#nav a img {
+    width: 30px;
+    float: left;
+    padding-right: 7px;
+  }
+
+  #nav nav{
+      padding-top: 15px;
+  }
+
+#banner{
+    height: 90vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1566478989187-b9e180f984ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;    
 }
